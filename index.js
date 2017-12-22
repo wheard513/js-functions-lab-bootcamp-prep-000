@@ -4,13 +4,9 @@ function happyHolidays(string) {
 }
 
 function happyHolidaysTo(name) {
-  return (`Happy holidays, ${name}!`)
-}
-
-function happyHolidaysTo(holiday, name) {
-  if (string === "Happy holidays, you") {
-    return (`Happy ${holiday}, ${name}!`)
-  }
+  if (string === 'Happy Holidays, you')
+   return (`Happy holidays, ${name}!`)
+} else (string === 'Happy ${holiday}, ${name}! ')
 }
 
 function holidayCountdown(holiday, days) {
